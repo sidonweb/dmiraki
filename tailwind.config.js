@@ -130,7 +130,11 @@ module.exports = {
 					to: {
 						transform: 'translateY(calc(-100% - var(--gap)))'
 					}
-				}
+				},
+				floating: {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' },
+				  },
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
@@ -140,7 +144,9 @@ module.exports = {
 				'border-beam': 'border-beam calc(var(--duration)*1s) infinite linear',
 				meteor: 'meteor 5s linear infinite',
 				marquee: 'marquee var(--duration) infinite linear',
-				'marquee-vertical': 'marquee-vertical var(--duration) linear infinite'
+				'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
+				floating: 'floating 3s ease-in-out infinite',
+				
 			},
 			fontFamily: {
             sans: ['Poppins', ...defaultTheme.fontFamily.sans]

@@ -21,6 +21,7 @@ interface ServicesProps {
     title: string;
     description: string;
     image: string;
+    readmore: string
 }
 
 const services: ServicesProps[] = [
@@ -29,36 +30,42 @@ const services: ServicesProps[] = [
         description:
             "We help brands implement digital marketing strategies that are geared to optimize, communicate and advocate. Our strategies help brands, expand their current reach and reach new audiences. ",
         image: image1,
+        readmore: "services/social-media-marketing-and-management"
     },
     {
         title: "Branding & Designing",
         description:
             "Branding is more than just a logo—it's the essence of your business. Whether launching or rebranding, we create designs that connect with your audience, telling your story and showing why you're the solution they've been seeking.",
         image: image2,
+        readmore: "services/branding-and-designing"
     },
     {
         title: "Profitable Performance Marketing",
         description:
             "In the fast-paced world of digital marketing, we constantly explore new strategies and insights to create innovative campaigns that boost your desktop and mobile advertising performance.",
         image: image,
+        readmore: "services/profitable-performance-marketing"
     },
     {
         title: "Web Design & Development",
         description:
             "We focus on website development for B2B and organisations, with a focus on improving usability, increasing enquiries and making you stand out.",
         image: image4,
+        readmore: "services/web-design-and-development"
     },
     {
         title: "Content Creation",
         description:
             "We create unique, engaging content that builds brand awareness, loyalty, and advocacy. From copywriting and photography to social and video, we believe great storytelling starts with great content.",
         image: image5,
+        readmore: "services/content-creation"
     },
     {
         title: "UI & UX Design",
         description:
             "Our designs must not only look beautiful, but they must also function beautifully. A great design not only entices you to touch, but it must be intuitive and simple to understand.",
         image: image6,
+        readmore: "services/ui-and-ux-design"
     },
 ];
 
@@ -107,7 +114,7 @@ function Services() {
                 <div className="shadow"></div>
             </section>
             <div className="relative grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {services.map(({ title, description, image }: ServicesProps) => (
+                {services.map(({ title, description, image, readmore }: ServicesProps) => (
                     <MagicCard key={title} className="bg-muted/50 border rounded-none" gradientColor={theme === "dark" ? "#262626" : "#D9D9D955"}>
                         <CardHeader>
                             <CardTitle>{title}</CardTitle>
@@ -118,7 +125,7 @@ function Services() {
                             <div className="gap-2">
                                 <a
                                     rel="noreferrer noopener"
-                                    href="https://github.com/sidonweb/dmiraki"
+                                    href={readmore}
                                     className={`pl-0 ${buttonVariants({ variant: "link" })}`}
                                 >
                                     <ArrowTopRightIcon className="mr-2 w-5 h-5" />
