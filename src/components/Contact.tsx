@@ -20,19 +20,17 @@ export const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID!;
-    const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID!;
-    const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY!;
-    console.log("Public Key:", process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
-    console.log("Service ID:", process.env.REACT_APP_EMAILJS_SERVICE_ID);
-    console.log("Template ID:", process.env.REACT_APP_EMAILJS_TEMPLATE_ID);
+    // const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID!;
+    // const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID!;
+    // const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY!;
+
 
     emailjs
       .send(
-        serviceId, // Replace with your EmailJS Service ID
-        templateId, // Replace with your EmailJS Template ID
+        "service_cxvvtrl", // Replace with your EmailJS Service ID
+        "template_wcx34xb", // Replace with your EmailJS Template ID
         formData,
-        publicKey // Replace with your EmailJS Public Key
+        "NS0TeUwj9OuqnOpKT" // Replace with your EmailJS Public Key
       )
       .then(
         (response) => {
