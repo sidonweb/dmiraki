@@ -6,13 +6,13 @@ import "./index.css";
 import { Footer } from "./components/Footer.tsx";
 import { ScrollToTop } from "./components/ScrollToTop.tsx";
 import { FAQ } from "./components/FAQ.tsx";
-import { Newsletter } from "./components/Newsletter.tsx";
+import { Contact } from "./components/Contact.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ThemeProvider>
       <App />
-      <Newsletter />
+      <Contact />
       <FAQ />
       <Footer />
       <ScrollToTop />
