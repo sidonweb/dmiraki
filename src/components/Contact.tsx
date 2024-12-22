@@ -23,6 +23,10 @@ export const Contact = () => {
     const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID!;
     const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID!;
     const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY!;
+    console.log("Public Key:", process.env.REACT_APP_EMAILJS_PUBLIC_KEY);
+    console.log("Service ID:", process.env.REACT_APP_EMAILJS_SERVICE_ID);
+    console.log("Template ID:", process.env.REACT_APP_EMAILJS_TEMPLATE_ID);
+
     emailjs
       .send(
         serviceId, // Replace with your EmailJS Service ID
