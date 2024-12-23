@@ -3,8 +3,11 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
 
 export const Contact = () => {
+  const testing = import.meta.env.VITE_STRING_VARIABLE;
+  console.log("hello "+ testing)
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -20,25 +23,25 @@ export const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID!;
-    // const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID!;
-    // const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY!;
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID!;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID!;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY!;
 
 
     emailjs
       .send(
-        "service_cxvvtrl", // Replace with your EmailJS Service ID
-        "template_wcx34xb", // Replace with your EmailJS Template ID
+        serviceId, // Replace with your EmailJS Service ID
+        templateId, // Replace with your EmailJS Template ID
         formData,
-        "NS0TeUwj9OuqnOpKT" // Replace with your EmailJS Public Key
+        publicKey // Replace with your EmailJS Public Key
       )
       .then(
         (response) => {
-          alert("Query sent successfully!");
+          toast.success("Query sent successfully!");
           console.log("Email sent successfully:", response);
         },
         (error) => {
-          alert("Error sending query. Please try again.");
+          toast.error("Error sending query. Please try again.");
           console.error("Error sending email:", error);
         }
       );
@@ -141,6 +144,7 @@ export const Contact = () => {
           />
           <Button>Send</Button>
         </form>
+        <ToastContainer />
       </div>
 
       <hr className="w-11/12 mx-auto" />
