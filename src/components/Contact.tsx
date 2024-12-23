@@ -6,8 +6,6 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 
 export const Contact = () => {
-  const testing = import.meta.env.VITE_STRING_VARIABLE;
-  console.log("hello "+ testing)
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
