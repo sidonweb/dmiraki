@@ -26,11 +26,7 @@ export const About = () => {
                 Company
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit.
+              We are a passionate team of digital experts dedicated to helping brands grow and thrive in the digital age. With a perfect blend of creativity, innovation, and technical expertise, we provide tailored solutions that empower businesses to reach their full potential. Our commitment is to deliver measurable results through personalized strategies, cutting-edge technologies, and seamless user experiences.
               </p>
             </div>
 

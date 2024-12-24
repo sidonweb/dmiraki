@@ -134,7 +134,7 @@ module.exports = {
 				floating: {
 					'0%, 100%': { transform: 'translateY(0)' },
 					'50%': { transform: 'translateY(-10px)' },
-				  },
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
@@ -146,11 +146,11 @@ module.exports = {
 				marquee: 'marquee var(--duration) infinite linear',
 				'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
 				floating: 'floating 3s ease-in-out infinite',
-				
+
 			},
 			fontFamily: {
-            sans: ['Poppins', ...defaultTheme.fontFamily.sans]
-          }
+				sans: ['Poppins', ...defaultTheme.fontFamily.sans]
+			}
 		}
 	},
 	plugins: [require("tailwindcss-animate")],

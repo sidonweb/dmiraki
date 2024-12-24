@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { About } from "./components/About";
+import About from "@/pages/About";
+import { About as AboutSection } from "./components/About";
 import { Cta } from "./components/Cta";
 import { Features } from "./components/Features";
 import { Hero } from "./components/Hero";
@@ -32,7 +33,7 @@ function App() {
             <>
               <Hero />
               <Sponsors />
-              <About />
+              <AboutSection />
               <HowItWorks />
               <Features />
               <Services />

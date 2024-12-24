@@ -16,16 +16,25 @@ export const Footer = () => {
             DMiraki
           </a>
         </div>
-
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Follow US</h3>
+          <h3 className="font-bold text-lg">Community</h3>
           <div>
             <a
               rel="noreferrer noopener"
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Github
+              Youtube
+            </a>
+          </div>
+
+          <div>
+            <a
+              rel="noreferrer noopener"
+              href="#"
+              className="opacity-60 hover:opacity-100"
+            >
+              Instagram
             </a>
           </div>
 
@@ -38,47 +47,66 @@ export const Footer = () => {
               Twitter
             </a>
           </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Dribbble
-            </a>
-          </div>
         </div>
 
+        
+
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
+          <h3 className="font-bold text-lg">Services</h3>
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="/services/social-media-marketing-and-management"
               className="opacity-60 hover:opacity-100"
             >
-              Web
+              Social Media
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="/services/branding-and-designing"
               className="opacity-60 hover:opacity-100"
             >
-              Mobile
+              Branding
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="/services/profitable-performance-marketing"
               className="opacity-60 hover:opacity-100"
             >
-              Desktop
+              Marketing
+            </a>
+          </div>
+          <div>
+            <a
+              rel="noreferrer noopener"
+              href="/services/web-design-and-development"
+              className="opacity-60 hover:opacity-100"
+            >
+              Web Development
+            </a>
+          </div>
+          <div>
+            <a
+              rel="noreferrer noopener"
+              href="/services/content-creation"
+              className="opacity-60 hover:opacity-100"
+            >
+              Content Creation
+            </a>
+          </div>
+          <div>
+            <a
+              rel="noreferrer noopener"
+              href="/services/ui-and-ux-design"
+              className="opacity-60 hover:opacity-100"
+            >
+              UI/UX Design
             </a>
           </div>
         </div>
@@ -108,23 +136,22 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="#faq"
               className="opacity-60 hover:opacity-100"
             >
               FAQ
             </a>
           </div>
         </div>
-
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Community</h3>
+          <h3 className="font-bold text-lg">Legal</h3>
           <div>
             <a
               rel="noreferrer noopener"
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Youtube
+              Terms & Conditions
             </a>
           </div>
 
@@ -134,7 +161,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Discord
+              Privacy Policy
             </a>
           </div>
 
@@ -144,23 +171,16 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Twitch
+              Disclaimer
             </a>
           </div>
         </div>
+        
       </section>
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Made in India by{" "}
-          <a
-            rel="noreferrer noopener"
-            target="_blank"
-            href="https://sidonweb.com"
-            className="text-primary transition-all border-primary hover:border-b-2"
-          >
-            sidonweb
-          </a>
+          &copy; 2024 DMiraki. All rights reserved.
         </h3>
       </section>
     </footer>

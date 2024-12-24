@@ -1,10 +1,14 @@
+import { Stars } from "@react-three/drei";
 import { Button } from "./ui/button"
 import Meteors from "./ui/meteors";
+import { Canvas } from "@react-three/fiber";
+import { useNavigate } from "react-router-dom";
 
 export const Hero = () => {
+  const navigate = useNavigate()
   return (
-    <section className="container flex flex-col relative items-center py10 md:py-20 gap-10 overflow-hidden">
-      <div className=" pt-16 text-center flex flex-col items-center md:w-3/4 lg:text-start space-y-6 ">
+    <section className="container flex flex-col relative items-center pb-10 md:py-20 gap-10 overflow-hidden">
+      <div className=" pt-10 text-center flex flex-col items-center md:w-3/4 lg:text-start space-y-6 ">
         <main className="text-5xl text-center md:text-7xl font-bold z-10">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r bg-clip-text text-transparent
@@ -14,7 +18,7 @@ export const Hero = () => {
             </span>{" "}
             Your ROI with Our Expert {" "}
             <span className="inline bg-gradient-to-r from-[#3cd500]  via-[#eee71d] to-[#3cd500] animate-text text-transparent bg-clip-text">
-            Digital Marketing
+              Digital Marketing
             </span>
           </h1>
         </main>
@@ -24,19 +28,16 @@ export const Hero = () => {
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4 z-10">
-          <Button className="w-full">Let's Talk</Button>
+          <Button onClick={() => navigate("/contact")} className="w-full">Let's Talk</Button>
         </div>
-        
-      </div>
-<Meteors />
-      {/* Hero cards sections */}
-      {/* <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden"> */}
-        {/* <HeroCards /> */}
-        
-      {/* </div> */}
 
-      {/* Shadow effect */}
-      {/* <div className="shadow"></div> */}
+      </div>
+      <Meteors />
+      <div className="absolute inset-0 z-0">
+        <Canvas className="bg-transparent">
+          <Stars radius={50} count={2500} factor={4} fade speed={1} />
+        </Canvas>
+      </div>
     </section>
   );
 };

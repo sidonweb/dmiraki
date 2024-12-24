@@ -46,7 +46,7 @@ export const Contact = () => {
   };
 
   return (
-    <section id="newsletter">
+    <section id="contactus">
       <hr className="w-11/12 mx-auto" />
 
       <div className="container flex flex-col md:flex-row py-24 sm:py-32">
@@ -133,7 +133,7 @@ export const Contact = () => {
           <textarea
             placeholder="Short description of the project"
             required
-            className="flex w-full border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-muted/50 dark:bg-muted/80 rounded-none resize-none"
+            className="flex w-full  px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-muted/50 dark:bg-muted/80 rounded-none resize-none"
             rows={4}
             name="projectDescription"
             value={formData.projectDescription}

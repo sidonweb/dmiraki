@@ -1,7 +1,7 @@
 import {
     // Card,
     CardContent,
-    CardFooter,
+    // CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card";
@@ -88,7 +88,9 @@ function Services() {
                     </div>
                     <main className="text-4xl md:text-6xl font-bold">
                         <h1 className="inline">
-                            <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
+                            <span className="inline bg-gradient-to-r bg-clip-text text-transparent
+              from-[#47a3f3] via-purple-500 to-[#47a3f3]
+              animate-text tracking-tight">
                                 What we do?
                             </span>
                         </h1>
@@ -114,7 +116,7 @@ function Services() {
                 <div className="shadow"></div>
             </section>
             <div className="relative grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {services.map(({ title, description, image, readmore }: ServicesProps) => (
+                {services.map(({ title, description, readmore }: ServicesProps) => (
                     <MagicCard key={title} className="bg-muted/50 border rounded-none" gradientColor={theme === "dark" ? "#262626" : "#D9D9D955"}>
                         <CardHeader>
                             <CardTitle>{title}</CardTitle>
@@ -134,13 +136,13 @@ function Services() {
                             </div>
                         </CardContent>
 
-                        <CardFooter>
+                        {/* <CardFooter>
                             <img
                                 src={image}
                                 alt="About feature"
                                 className="w-[200px]  mx-auto"
                             />
-                        </CardFooter>
+                        </CardFooter> */}
                     </MagicCard>
                 ))}
             </div>
