@@ -4,7 +4,7 @@ import { MagicCard } from "./ui/magic-card";
 import { useTheme } from "./theme-provider";
 
 export const About = () => {
-  const {theme} = useTheme()
+  const { theme } = useTheme()
   return (
     <section
       id="about"
@@ -26,7 +26,7 @@ export const About = () => {
                 Company
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-              We are a passionate team of digital experts dedicated to helping brands grow and thrive in the digital age. With a perfect blend of creativity, innovation, and technical expertise, we provide tailored solutions that empower businesses to reach their full potential. Our commitment is to deliver measurable results through personalized strategies, cutting-edge technologies, and seamless user experiences.
+                We are a passionate team of digital experts dedicated to helping brands grow and thrive in the digital age. With a perfect blend of creativity, innovation, and technical expertise, we provide tailored solutions that empower businesses to reach their full potential. Our commitment is to deliver measurable results through personalized strategies, cutting-edge technologies, and seamless user experiences.
               </p>
             </div>
 

@@ -1,7 +1,5 @@
-import { Stars } from "@react-three/drei";
 import { Button } from "./ui/button"
 import Meteors from "./ui/meteors";
-import { Canvas } from "@react-three/fiber";
 import { useNavigate } from "react-router-dom";
 
 export const Hero = () => {
@@ -33,11 +31,6 @@ export const Hero = () => {
 
       </div>
       <Meteors />
-      <div className="absolute inset-0 z-0">
-        <Canvas className="bg-transparent">
-          <Stars radius={50} count={2500} factor={4} fade speed={1} />
-        </Canvas>
-      </div>
     </section>
   );
 };
