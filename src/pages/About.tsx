@@ -1,4 +1,3 @@
-import { Statistics } from "../components/Statistics";
 import pilot from "../assets/pilot.png";
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MedalIcon, MapIcon, PlaneIcon, GiftIcon } from "../components/Icons";
