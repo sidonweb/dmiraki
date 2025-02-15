@@ -12,27 +12,27 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Client-Centric Approach",
+    title: "Lead with Love",
     description:
-      "We prioritize our clients' needs, ensuring personalized strategies that align with their business goals and deliver measurable results.",
+      "We believe empathy is our superpower. Every strategy, decision, and interaction is rooted in compassion. We don't just provide solutions—we listen, advocate, and uplift, ensuring businesses grow with authenticity and heart.",
   },
   {
     icon: <MapIcon />,
-    title: "Transparent Communication",
+    title: "Grow with Grit",
     description:
-      "Open and honest communication is at the heart of our operations, fostering trust and collaboration throughout every project.",
+      "Challenges aren't roadblocks; they're opportunities. We tackle obstacles with resilience and curiosity, turning setbacks into stepping stones. Like a mentor guiding a learner, we stand by our clients with unwavering belief in their potential.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Innovative Solutions",
+    title: "Collab with Courage",
     description:
-      "We leverage latest technologies and creative strategies to provide cutting-edge solutions that drive business growth.",
+      "Bold ideas and diverse voices drive progress. We create a space where women's leadership thrives, where collaboration fuels innovation, and where every challenge is met with fearless creativity and shared success.",
   },
   {
     icon: <GiftIcon />,
-    title: "Data-Driven Strategies",
+    title: "Own with Integrity",
     description:
-      "We utilize comprehensive data analysis to inform our decisions, ensuring effective and efficient marketing campaigns.",
+      "Trust is the foundation of everything we do. We treat every client's vision as a promise, leading with transparency, accountability, and an uncompromising commitment to ethical action.",
   },
 ];
 
@@ -51,8 +51,8 @@ export const HowItWorks = () => {
         </span>
         Step-by-Step
       </h2>
-      <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-      Our work process is simple, but it packs a punch:
+      <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">  
+Less Corporate Jargon, More Getting Sh*t Done.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -68,7 +68,7 @@ export const HowItWorks = () => {
                 {title}
               </CardTitle>
             </CardHeader>
-            <CardContent>{description}</CardContent>
+            <CardContent className="text-start">{description}</CardContent>
           </MagicCard>
         ))}
       </div>

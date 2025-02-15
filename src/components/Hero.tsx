@@ -12,17 +12,18 @@ export const Hero = () => {
             <span className="inline bg-gradient-to-r bg-clip-text text-transparent
               from-[#47a3f3] via-purple-500 to-[#47a3f3]
               animate-text tracking-tight">
-              Skyrocket
+              Struggling
             </span>{" "}
-            Your ROI with Our Expert {" "}
+            to Keep Up in the Digital Race?  We’ll Hand You the {" "}
             <span className="inline bg-gradient-to-r from-[#3cd500]  via-[#eee71d] to-[#3cd500] animate-text text-transparent bg-clip-text">
-              Digital Marketing
+            Trophy.
+
             </span>
           </h1>
         </main>
 
         <p className="text-xl text-center text-muted-foreground md:w-10/12 mx-auto lg:mx-0 z-10">
-          DMiraki is a full-service digital marketing agency providing best-in-class services to big brands and small-to-medium sized businesses.
+        making brands shine brighter than a phone screen at 2 AM :)
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4 z-10">

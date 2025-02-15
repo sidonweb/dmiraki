@@ -10,22 +10,28 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Dominate Search Rankings",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    icon: <ChartIcon />,
+      "Google's algorithms change like the weather, but our SEO strategy keeps you at the top—more visibility, more clicks, more customers.",
+    icon: <ChartIcon />, 
   },
   {
-    title: "Project Management",
+    title: "Convert Scrollers into Buyers",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "We create ad campaigns that don't just attract eyeballs—they drive real revenue. Precision targeting meets compelling messaging.",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Spark Viral Conversations",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Your audience is scrolling—let's make them stop. Our social media strategies turn casual followers into brand advocates.",
     icon: <MagnifierIcon />,
+  },
+  {
+    title: "Nurture Leads Like Clockwork",
+    description:
+      "Forget generic email blasts. We craft personalized email campaigns that build relationships, engage customers, and boost conversions.",
+    icon: <ChartIcon />,
   },
 ];
 
@@ -36,14 +42,13 @@ export const Services = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{" "}
+              Custom Digital Strategies {" "}
             </span>
-            Services
+            That Drive Real Results
           </h2>
 
-          <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+          <p className="text-muted-foreground text-xl mt-4 mb-8">
+            No cookie-cutter plans, no fluff—just data-driven strategies designed to grow your business and keep you ahead of the competition.
           </p>
 
           <div className="flex flex-col gap-8">
@@ -73,7 +78,6 @@ export const Services = () => {
       </div>
 
       <div className="shadow"></div>
-      
     </section>
   );
 };

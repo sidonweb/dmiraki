@@ -28,42 +28,42 @@ const services: ServicesProps[] = [
     {
         title: "Social Media Marketing & Management",
         description:
-            "We help brands implement digital marketing strategies that are geared to optimize, communicate and advocate. Our strategies help brands, expand their current reach and reach new audiences. ",
+            "Go Viral, Not Quiet. Forget posting into the void. We brew scroll-stopping strategies—grow your tribe, ignite chats, and turn likes into loyal fans. Let's make your brand the main character online.",
         image: image1,
         readmore: "services/social-media-marketing-and-management"
     },
     {
         title: "Branding & Designing",
         description:
-            "Branding is more than just a logo—it's the essence of your business. Whether launching or rebranding, we create designs that connect with your audience, telling your story and showing why you're the solution they've been seeking.",
+            "Your Brand's First Impression, Every Time. Logos? Basic. We craft unforgettable vibes—colors, fonts, and stories that scream, “Yeah, we're THAT good.” Launch or glow up, but never blend in.",
         image: image2,
         readmore: "services/branding-and-designing"
     },
     {
         title: "Profitable Performance Marketing",
         description:
-            "In the fast-paced world of digital marketing, we constantly explore new strategies and insights to create innovative campaigns that boost your desktop and mobile advertising performance.",
+            "Ads That Work Harder, Cost Less. Stop guessing what works. We optimize campaigns across mobile, desktop, and social to squeeze every dollar for maximum ROI. Your growth isn't random—it's engineered.",
         image: image,
         readmore: "services/profitable-performance-marketing"
     },
     {
         title: "Web Design & Development",
         description:
-            "We focus on website development for B2B and organisations, with a focus on improving usability, increasing enquiries and making you stand out.",
+            "Websites That Work While You Sleep, Your 24/7 Sales Team. Boring sites belong in 2012. We build B2B rocketships—slick, speedy, and begging for clicks. More enquiries? That's just Tuesday for us.",
         image: image4,
         readmore: "services/web-design-and-development"
     },
     {
         title: "Content Creation",
         description:
-            "We create unique, engaging content that builds brand awareness, loyalty, and advocacy. From copywriting and photography to social and video, we believe great storytelling starts with great content.",
+            "Content That's Share-Worthy, Not Shelf-Worthy. Stop Scrolling, Start Engaging Generic posts? Yawn. We spin stories so good, your audience will DM, tag, and save-for-later. Words + visuals = your brand's new hype squad.",
         image: image5,
         readmore: "services/content-creation"
     },
     {
         title: "UI & UX Design",
         description:
-            "Our designs must not only look beautiful, but they must also function beautifully. A great design not only entices you to touch, but it must be intuitive and simple to understand.",
+            "UI/UX So Smooth, It Feels Like Magic. Where Clicks Feel Like Butter Pretty is pointless if it's clunky. We design brain-friendly interfaces—easy, addictive, and “Why didn't I think of that?” simple. User rage? Never heard of her.",
         image: image6,
         readmore: "services/ui-and-ux-design"
     },
@@ -97,7 +97,7 @@ function Services() {
                     </main>
 
                     <p className="text-base md:text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-                        Explore DMiraki today and unlock the potential to elevate your brand. Whether it's a dynamic website, captivating visuals, or strategic marketing, we're here to bring your vision to life and drive real success in the digital world.
+                    We create digital experiences that captivate and convert—from high-performance websites and stunning visuals to data-driven marketing and seamless IT solutions. Whether it's **SEO that ranks, ads that sell, or branding that sticks**, we turn ideas into impact. Your brand's next big leap starts with strategy, creativity, and flawless execution. Let's build something extraordinary, together.
                     </p>
 
 

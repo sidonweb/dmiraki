@@ -1,4 +1,5 @@
-import { About as AboutSection } from "@/components/About";
+import { Statistics } from "../components/Statistics";
+import pilot from "../assets/pilot.png";
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MedalIcon, MapIcon, PlaneIcon, GiftIcon } from "../components/Icons";
 import { MagicCard } from "@/components/ui/magic-card";
@@ -57,7 +58,7 @@ animate-text tracking-tight">
                     </main>
 
                     <p className="text-base md:text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-                        We stand firm in our belief that digital should not be a distraction; instead, it should act as an enabler of human potential.
+                        Women. Bold, brilliant, and unstoppable. We're here to build, nurture, and lead—proving that success isn't about playing by old rules but creating new ones. We believe in businesses that feel human, strategies that make an impact, and a future where women's leadership isn't the exception—it's the standard.
                     </p>
 
 
@@ -75,7 +76,40 @@ animate-text tracking-tight">
                 {/* Shadow effect */}
                 <div className="shadow"></div>
             </section>
-            <AboutSection />
+            <section
+                id="about"
+                className="container py-24 sm:py-32"
+            >
+                <MagicCard className="bg-muted/50 border rounded-none py-12" gradientColor={theme === "dark" ? "#262626" : "#D9D9D955"}>
+                    <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
+                        <img
+                            src={pilot}
+                            alt=""
+                            className="w-[300px] object-contain rounded-lg"
+                        />
+                        <div className="bg-green-0 flex flex-col justify-between">
+                            <div className="pb-6">
+                                <h2 className="text-3xl md:text-4xl font-bold">
+                                    <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+                                        About{" "}
+                                    </span>
+                                    Company
+                                </h2>
+                                <p className="text-xl text-muted-foreground mt-4">
+                                We are a powerhouse of elite professionals—tech architects, global strategists, and IIM alumni—who have spent years mastering the art of building, scaling, and future-proofing businesses. Individually, we've led projects that shaped industries; together, we are rewriting the rules of tech and marketing. No juniors, no egos—just seasoned experts delivering results that speak for themselves.
+                                </p>
+                                <p className="text-xl text-muted-foreground mt-4">
+                                Our vision is bold: a world where women don't just participate in business but lead it. We believe in brands that grow like living entities—nurtured with care, strengthened with strategy, and driven by purpose. Innovation, collaboration, and resilience fuel our approach, ensuring every company we touch thrives in an ever-evolving landscape.
+                                </p>
+                                <p className="text-xl text-muted-foreground mt-4">
+                                Our mission is to merge strategy with empathy, precision with creativity, and vision with execution. Whether it's launching cutting-edge tech solutions, scaling impactful campaigns, or crafting timeless brands, we bring a level of expertise and commitment that turns ambitious ideas into unstoppable success.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </MagicCard>
+            </section>
             <section className="container grid grid-cols-1 md:grid-cols-2  text-center py-24 sm:py-32">
                 <div className="relative flex flex-col justify-center items-center">
                     <h2 className="text-3xl md:text-4xl font-bold ">
@@ -85,7 +119,7 @@ animate-text tracking-tight">
                         </span>
                     </h2>
                     <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-                        Our work process is simple, but it packs a punch:
+                        Our work process is simple, but it packs a punch.
                     </p>
                     <img
                         src={experiments}
