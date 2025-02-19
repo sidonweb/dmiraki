@@ -1,4 +1,3 @@
-import { Radar } from "lucide-react";
 import partner1 from "@/assets/partners/black-vigour-gym.png";
 import partner2 from "@/assets/partners/epione-clinic.png";
 import partner3 from "@/assets/partners/logo.png";
