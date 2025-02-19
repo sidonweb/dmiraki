@@ -97,7 +97,7 @@ function Services() {
                     </main>
 
                     <p className="text-base md:text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-                    We create digital experiences that captivate and convert—from high-performance websites and stunning visuals to data-driven marketing and seamless IT solutions. Whether it's **SEO that ranks, ads that sell, or branding that sticks**, we turn ideas into impact. Your brand's next big leap starts with strategy, creativity, and flawless execution. Let's build something extraordinary, together.
+                    We create digital experiences that captivate and convert—from high-performance websites and stunning visuals to data-driven marketing and seamless IT solutions. Whether it's SEO that ranks, ads that sell, or branding that sticks, we turn ideas into impact. Your brand's next big leap starts with strategy, creativity, and flawless execution. Let's build something extraordinary, together.
                     </p>
 
 

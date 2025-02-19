@@ -180,7 +180,7 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 DMiraki. All rights reserved.
+          &copy; 2025 DMiraki. All rights reserved.
         </h3>
       </section>
     </footer>

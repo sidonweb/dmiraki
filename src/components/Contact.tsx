@@ -66,15 +66,15 @@ export const Contact = () => {
                 <span>
                   <PhoneCallIcon width={20} />
                 </span>
-                <span>+91 1234567890</span>
+                <span>+91 9315496599</span>
               </li>
             </a>
-            <a href="mailto:hello@dmiraki.com">
+            <a href="mailto:mailtodmiraki@gmail.com">
               <li className="flex my-2 flex-row gap-4">
                 <span>
                   <MailIcon width={20} />
                 </span>
-                <span>hello@dmiraki.com</span>
+                <span>mailtodmiraki@gmail.com</span>
               </li>
             </a>
             <li className="flex my-2 flex-row gap-4">

@@ -14,7 +14,7 @@ export const Hero = () => {
               animate-text tracking-tight">
               Struggling
             </span>{" "}
-            to Keep Up in the Digital Race?  We’ll Hand You the {" "}
+            to Keep Up in the Digital Race?  We'll Hand You the {" "}
             <span className="inline bg-gradient-to-r from-[#3cd500]  via-[#eee71d] to-[#3cd500] animate-text text-transparent bg-clip-text">
             Trophy.
 

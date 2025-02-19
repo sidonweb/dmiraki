@@ -1,35 +1,36 @@
 import { Radar } from "lucide-react";
+import partner1 from "@/assets/partners/black-vigour-gym.png";
+import partner2 from "@/assets/partners/epione-clinic.png";
+import partner3 from "@/assets/partners/logo.png";
+import partner4 from "@/assets/partners/md-1.png";
+import partner5 from "@/assets/partners/novus_automation.png"
 
 interface SponsorProps {
-  icon: JSX.Element;
+  icon: string;
   name: string;
 }
 
 const sponsors: SponsorProps[] = [
   {
-    icon: <Radar size={34} />,
-    name: "Company 1",
+    icon: partner1,
+    name: "",
   },
   {
-    icon: <Radar size={34} />,
-    name: "Company 2",
+    icon: partner2,
+    name: "",
   },
   {
-    icon: <Radar size={34} />,
-    name: "Company 3",
+    icon: partner3,
+    name: "",
   },
   {
-    icon: <Radar size={34} />,
-    name: "Company 4",
+    icon: partner4,
+    name: "",
   },
   {
-    icon: <Radar size={34} />,
-    name: "Company 5",
-  },
-  {
-    icon: <Radar size={34} />,
-    name: "Company 6",
-  },
+    icon: partner5,
+    name: "",
+  }
 ];
 
 export const Sponsors = () => {
@@ -48,7 +49,7 @@ export const Sponsors = () => {
             key={name}
             className="flex items-center gap-1 text-muted-foreground/60"
           >
-            <span>{icon}</span>
+            <img src={icon} alt="" />
             <h3 className="text-xl  font-bold">{name}</h3>
           </div>
         ))}
