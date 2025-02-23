@@ -8,15 +8,18 @@ export const Cta = () => {
       <div className="container lg:grid lg:grid-cols-2 place-items-center">
         <div className="lg:col-start-1">
           <h2 className="text-3xl md:text-4xl font-bold">
-            All Your
+            From Vision to Victory: Turn
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
               {" "}
-              Ideas & Concepts{" "}
+              Ideas{" "}
             </span>
-            Turned Reality
+            into <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+              {" "}
+              Impact{" "}
+            </span>
           </h2>
           <p className="text-muted-foreground text-xl mt-4 mb-8 lg:mb-0">
-          Transform your vision into reality with tailored solutions designed to drive results. Get started today.
+          Tired of ideas gathering dust? We turn "what if?" into "what's next?" with razor-sharp tools and tailored strategies that deliver real results.
           </p>
         </div>
 
