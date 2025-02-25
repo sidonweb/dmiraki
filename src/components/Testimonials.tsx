@@ -18,46 +18,67 @@ interface TestimonialProps {
 const testimonials: TestimonialProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe",
-    comment: "This landing page is awesome!",
+    name: "Rahul Mehta",
+    userName: "CEO, TechNova Solutions",
+    comment: "DMiraki has transformed our online presence! Their digital marketing strategies helped us reach a larger audience and increased our conversions significantly. Highly professional team!",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe1",
+    name: "Priya Sharma",
+    userName: "Marketing Head, Zenith Enterprises",
     comment:
-      "Lorem ipsum dolor sit amet,empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "We partnered with D Miraki for website development and SEO. Their expertise and commitment to quality are outstanding. We saw a major improvement in our search rankings.",
   },
 
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe2",
+    name: "Amit Verma",
+    userName: "Director, Global Tech Solutions",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "DMiraki's IT solutions streamlined our operations and improved our efficiency. Their team is knowledgeable, responsive, and truly understands business needs.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe3",
+    name: "Neha Kapoor",
+    userName: "Founder, StyleAura Fashion",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Excellent service and innovative digital marketing strategies! Thanks to D Miraki, our brand visibility has grown tremendously in just a few months.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe4",
+    name: "Sandeep Joshi",
+    userName: "Managing Director, NextGen Electronics",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "DMiraki helped us with social media marketing and paid advertising. Their data-driven approach delivered great ROI, and we highly recommend their services!",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe5",
+    name: "Rohit Khanna",
+    userName: "Owner, Khanna Constructions",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "From website development to branding, D Miraki handled everything with professionalism and creativity. We are extremely satisfied with the results!",
   },
+  {
+    image: "https://github.com/shadcn.png",
+    name: "Vikas Tiwari",
+    userName: "Director, FinEdge Consultancy",
+    comment:
+      "DMiraki's PPC and SEO strategies helped us generate quality leads consistently. Their team understands the market and delivers measurable results.",
+  },
+  {
+    image: "https://github.com/shadcn.png",
+    name: "Swati Desai",
+    userName: "Co-founder, EduGenius Learning",
+    comment:
+      "They revamped our outdated website and implemented an effective digital strategy. The traffic and engagement on our platform have increased significantly.",
+  },
+  {
+    image: "https://github.com/shadcn.png",
+    name: "Manish Gupta",
+    userName: "COO, Innovate Systems",
+    comment:
+      "Working with DMiraki was a great experience. Their expertise in software development and IT solutions helped us automate key business processes seamlessly.",
+  }
 ];
 
 const firstRow = testimonials.slice(0, testimonials.length / 2);
