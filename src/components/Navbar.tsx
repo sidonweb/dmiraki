@@ -63,7 +63,7 @@ export const Navbar = () => {
 
   return (
     <header className="sticky top-0 z-40 w-full backdrop-blur dark:border-b-slate-700">
-      <NavigationMenu className="mx-6 mt-5">
+      <NavigationMenu className=" mx-6 mt-5">
         <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
             <a

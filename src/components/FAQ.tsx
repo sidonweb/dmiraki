@@ -14,7 +14,7 @@ interface FAQProps {
 const FAQList: FAQProps[] = [
   {
     question: "Why is digital marketing important?",
-    answer: "Human beings spend an average of 40 hours a week on the web - twice as much as they did 10 years ago. The internet is, for many, the first and main source of information when looking for something. It heavily influences consumer behavior and serves as a go-to channel for consumer-company interactions. Digital marketing makes it easy for any company to find and convert clients through channels that are vastly used by the majority of the world",
+    answer: "Human beings spend an average of 40 hours a week on the web - twice as much as they did 10 years ago. The internet is, for many, the first and main source of information when looking for something. It heavily influences consumer behavior and serves as a go-to channel for consumer-company interactions. Digital marketing makes it easy for any company to find and convert clients through channels that are vastly used by the majority of the world.",
     value: "item-1",
   },
   {
