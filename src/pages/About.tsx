@@ -95,13 +95,13 @@ animate-text tracking-tight">
                                     Company
                                 </h2>
                                 <p className="text-xl text-muted-foreground mt-4">
-                                We are a powerhouse of elite professionals—tech architects, global strategists, and IIM alumni—who have spent years mastering the art of building, scaling, and future-proofing businesses. Individually, we've led projects that shaped industries; together, we are rewriting the rules of tech and marketing. No juniors, no egos—just seasoned experts delivering results that speak for themselves.
+                                    We are a powerhouse of elite professionals—tech architects, global strategists, and IIM alumni—who have spent years mastering the art of building, scaling, and future-proofing businesses. Individually, we've led projects that shaped industries; together, we are rewriting the rules of tech and marketing. No juniors, no egos—just seasoned experts delivering results that speak for themselves.
                                 </p>
                                 <p className="text-xl text-muted-foreground mt-4">
-                                Our vision is bold: a world where women don't just participate in business but lead it. We believe in brands that grow like living entities—nurtured with care, strengthened with strategy, and driven by purpose. Innovation, collaboration, and resilience fuel our approach, ensuring every company we touch thrives in an ever-evolving landscape.
+                                    Our vision is bold: a world where women don't just participate in business but lead it. We believe in brands that grow like living entities—nurtured with care, strengthened with strategy, and driven by purpose. Innovation, collaboration, and resilience fuel our approach, ensuring every company we touch thrives in an ever-evolving landscape.
                                 </p>
                                 <p className="text-xl text-muted-foreground mt-4">
-                                Our mission is to merge strategy with empathy, precision with creativity, and vision with execution. Whether it's launching cutting-edge tech solutions, scaling impactful campaigns, or crafting timeless brands, we bring a level of expertise and commitment that turns ambitious ideas into unstoppable success.
+                                    Our mission is to merge strategy with empathy, precision with creativity, and vision with execution. Whether it's launching cutting-edge tech solutions, scaling impactful campaigns, or crafting timeless brands, we bring a level of expertise and commitment that turns ambitious ideas into unstoppable success.
                                 </p>
                             </div>
 
