@@ -19,6 +19,7 @@ import UIAndUXDesign from "./pages/ui-and-ux-design";
 import ContentCreation from "./pages/content-creation";
 import WebDesignAndDevelopment from "./pages/web-design-and-development";
 import ProfitablePerformanceMarketing from "./pages/profitable-performance-marketing";
+import { Blogs } from "./pages/Blogs";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           }
         />
         <Route path="/about" element={<About />} />
+        <Route path="/blogs" element={<Blogs />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/services/social-media-marketing-and-management" element={<SocialMediaMarketingAndManagement />} />
         <Route path="/services/branding-and-designing" element={<BrandingAndDesigning />} />

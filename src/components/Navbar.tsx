@@ -34,13 +34,9 @@ const routeList: RouteProps[] = [
     label: "About",
   },
   {
-    href: "#testimonials",
-    label: "Testimonials",
-  },
-  {
-    href: "#faq",
-    label: "FAQ",
-  },
+    href: "/blogs",
+    label: "Blogs",
+  }
 ];
 
 export const Navbar = () => {
